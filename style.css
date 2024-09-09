@@ -1,0 +1,169 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+:root{
+    --nav_header: #191d22;
+    --footer01: #565a5f;
+    --footer02: #414244;
+    --font_main: font-family: 'Rosarivo', 'Times New Roman', serif;
+    --font_nav: font-family: "Montserrat";
+}
+
+header > nav > ul > li > a{
+    color: black;
+    font-weight: bolder;
+    box-sizing: border-box;
+    font-family: var(--font_nav);
+}
+
+header nav{
+    background-color: var(--nav_header);
+    height: 80px;
+    width: 100%;
+}
+
+header nav label.logo{
+    font-family: var(--font_nav);
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+header nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+header nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+header nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+header nav ul li a.active, a:hover{
+    background: #363e49;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    header nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+
+    header nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    header nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    header nav ul li a{
+        font-size: 20px;
+    }
+
+    header nav ul li a.active, a:hover {
+        background: none;
+        color: #a3a7ad;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+}
+
+footer{
+    width: 100%;
+    margin: 100px 0 0 0;
+    box-shadow: 3px, 3px, 3px, rgba(0, 0, 0, 0.377);
+    color: white;
+    
+}
+
+footer section#footer1{
+    background-color: var(--footer01);
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+}
+
+footer section#footer1 a{
+    color: white;
+    font-weight: bolder;
+}
+
+footer section#footer2{
+    text-align: center;
+    background: var(--footer02);
+    height: 30vh;
+}
+
+footer section#footer2 a{
+    color: white;
+}
+
+aside ul{
+    list-style-position: inside;
+    /*columns: 2;*/
+    list-style-type: none;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 1.6em;
+}
+
+aside ul a{
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+
+
+

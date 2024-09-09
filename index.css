@@ -1,0 +1,10 @@
+section#presentation{
+    display: inline-block;
+}
+
+.img_home_graduation{
+    width: 50%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
