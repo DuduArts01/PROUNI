@@ -53,7 +53,7 @@ header nav ul li a{
     border-radius: 3px;
 }
 
-header nav ul li a.active, a:hover{
+header > nav > ul > li > a.active, a:hover{
     background: #363e49;
     transition: .5s;
 }
@@ -109,7 +109,7 @@ header nav ul li a.active, a:hover{
         font-size: 20px;
     }
 
-    header nav ul li a.active, a:hover {
+    header > nav > ul > li > a.active, a:hover {
         background: none;
         color: #a3a7ad;
     }
@@ -120,12 +120,18 @@ header nav ul li a.active, a:hover{
 
 }
 
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 footer{
     width: 100%;
     margin: 100px 0 0 0;
     box-shadow: 3px, 3px, 3px, rgba(0, 0, 0, 0.377);
     color: white;
-    
+    margin-top: auto;
 }
 
 footer section#footer1{

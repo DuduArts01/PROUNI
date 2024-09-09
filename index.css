@@ -1,10 +1,76 @@
-section#presentation{
-    display: inline-block;
-}
-
 .img_home_graduation{
-    width: 50%;
-    margin: 10px;
+    width: 500px;
     border-radius: 10px;
+    margin: 0 20px;
 }
 
+div.container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding: 10px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.329);
+
+}
+
+h1.title_presentation{
+   font-size: 1.5em;
+   margin-bottom: 20px;
+}
+
+p.text_presentation{
+    font-size: 1em;
+    text-indent: 20px;
+}
+
+.interactive_about{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+
+}
+
+.interactive_about a{
+    color: black;
+    font-weight: bold;
+    
+}
+
+.interactive_about a:hover{
+    background-color: white;
+}
+.interactive_about:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+@media (max-width: 858px) {
+    .img_home_graduation{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    div.container{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1.title_presentation{
+        text-align: center;
+    }
+
+    .interactive_about{
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+}
