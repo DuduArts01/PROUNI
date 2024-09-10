@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+.text_calculate{
+    font-size: 1.3em;
+    text-indent: 20px;
+}
+
+.income{
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.329);
+    margin: 20px;
+}
+
+@media (max-width: 858px) {
+    .income{
+        width: 380px;
+    }
+}

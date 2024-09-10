@@ -12,6 +12,37 @@
     --font_nav: font-family: "Montserrat";
 }
 
+div.container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding: 10px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.329);
+
+}
+
+div.container2{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.329);
+}
+
 header > nav > ul > li > a{
     color: black;
     font-weight: bolder;
@@ -171,5 +202,7 @@ aside ul a{
     text-decoration: none;
 }
 
-
+.text{
+    text-indent: 20px;
+}
 
