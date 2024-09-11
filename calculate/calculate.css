@@ -10,14 +10,67 @@
 }
 
 .income{
-    width: 700px;
+    width: 85%;
     border-radius: 10px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.329);
     margin: 20px;
 }
 
-@media (max-width: 858px) {
-    .income{
-        width: 380px;
-    }
+div#Info_calculate{
+    width: 80%;
+    align-items: center;
+}
+
+div#calculator{
+    width: 50%;
+    
+}
+
+button#Calculator{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Result_calculator_positive{
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: 30vh;
+    top: 30%;
+    right: 0;
+    left: 0;
+
+}
+
+#Result_calculator_negative{
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: 30vh;
+    top: 30%;
+    right: 0;
+    left: 0;
+
+}
+
+#Result_calculator_positive{
+    display: none;
+}
+
+#Result_calculator_negative{
+    display: none;
+}
+
+.interactive_about{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+
 }

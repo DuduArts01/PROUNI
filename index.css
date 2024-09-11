@@ -35,6 +35,11 @@ p.text_presentation{
     cursor: pointer;
 }
 
+div#presentation{
+    width: 80%;
+    align-items: center;
+}
+
 @media (max-width: 858px) {
     .img_home_graduation{
         width: 90%;
