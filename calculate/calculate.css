@@ -37,7 +37,18 @@ button#Calculator{
     margin-bottom: 10px;
 }
 
-#Result_calculator_positive{
+#Result_calculator_full_value{
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: 30vh;
+    top: 30%;
+    right: 0;
+    left: 0;
+
+}
+
+#Result_calculator_partial_value{
     display: block;
     position: absolute;
     width: 30%;
@@ -59,7 +70,11 @@ button#Calculator{
 
 }
 
-#Result_calculator_positive{
+#Result_calculator_full_value{
+    display: none;
+}
+
+#Result_calculator_partial_value{
     display: none;
 }
 

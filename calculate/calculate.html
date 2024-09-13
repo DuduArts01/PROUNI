@@ -35,27 +35,38 @@
             <button id="Calculator" onclick="Calculator()">
                 Calcular
             </button>
-            <p>Salário Mínimo de 2024 é de R$ 1412,00, então 1,5 salário mínimo é <b>R$2118,00</b></p>
         </div>
 
-        <div id="Result_calculator_positive" class="container2">
-            <p><h1>Parabéns!!!</h1></p>
+        <div id="Result_calculator_full_value" class="container2">
+            <p><h1>Bolsa Integral</h1></p>
             <p>Sua Renda Familiar Per Capita está dentro do permitido!</p>
-            <p>Renda Per Capita: R$ <div id="res"></div></p>
-            <p>A sua Renda Per Capita foi R$ <div id="res3"></div> abaixo do limite.</p>
+            <p>Renda Per Capita: R$<div id="res"></div></p>
+            <p>A sua Renda Per Capita foi R$ <div id="res2"></div> abaixo do limite.</p>
+            <button class="interactive_about" onclick="out()">Sair</button>
+        
+        </div>
+
+        <div id="Result_calculator_partial_value" class="container2">
+            <p><h1>Bolsa Parcial</h1></p>
+            <p>Sua Renda Familiar Per Capita está dentro do permitido!</p>
+            <p>Renda Per Capita: R$<div id="res3"></div></p>
+            <p>A sua Renda Per Capita foi R$ <div id="res4"></div> abaixo do limite.</p>
             <button class="interactive_about" onclick="out()">Sair</button>
         </div>
 
         <div id="Result_calculator_negative" class="container2">
             <p><h1>Infelizmente!</h1></p>
             <p>Sua Renda Familiar Per Capita não está dentro do permitido!</p>
-            <p>Renda Per Capita: R$ <div id="res2"></div></p>
-            <p>A sua Renda Per Capita foi R$ <div id="res4"></div> acima do limite.</p>
+            <p>Renda Per Capita: R$ <div id="res5"></div></p>
+            <p>A sua Renda Per Capita foi R$<div id="res6"></div> acima do limite.</p>
             <button class="interactive_about" onclick="out()">Sair</button>
         </div>
 
         <div class="container2" id="Info_calculate">
-            <p class="title_presentation"><h1>Como calcular a Renda Familiar Bruta Mensal Per Capita?</h1></p>
+            <p><h1>Qual a Renda para se ingressar no PROUNI?</h1></p>
+            <p class="text_calculate">O Salário Mínimo de 2024 no Brasil é de R$ 1412,00, para concorrer a vaga de bolsa integral(100%), deve-se ter 1,5 salário mínimo que é <b>R$2118,00</b>. Caso não entre nesse seleto grupo, você pode concorrer a bolsa parcial(50%), com isso, deve-se ter 3 salários mínimos, ou seja, <b>R$ 4236,00</b>.</p>
+
+            <p class="title_presentation"><h2>Como calcular a Renda Familiar Bruta Mensal Per Capita?</h2></p>
             <p class="text_calculate">Para se calcular a <b>Renda Familiar Bruta Mensal Por pessoa</b>, primeiramente, deve-se somar a Renda Mensal Bruta de todos os membros da familiares ou pessoas que habitam em sua moradia. Desse modo, a soma (resultado da adição) será dividida pela quantidade de pessoas as quais residem na sua casa.</p>
             <img src="income/income.jpg" alt="Income" class="income">
             <p><b>Atenção:</b> Lembre-se que deve usar <b>somente</b> os valores da Renda de todos os moradores<b>(MORAM NA SUA CASA).</b></p>
