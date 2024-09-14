@@ -114,14 +114,4 @@ h1{
     width: 37%;
 }
 
-@media (max-width: 858px) {
-    #residents{
-        width: 50%;
-    }
-    #income_calculate{
-        width: 50%;
-    }
-    #calculator{
-        width: 90%;
-    }
-}
+
