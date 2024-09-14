@@ -12,6 +12,10 @@
     --font_nav: font-family: "Montserrat";
 }
 
+header > nav > label > a{
+    color: white;
+}
+
 div.container{
     display: flex;
     flex-direction: row;
