@@ -4,13 +4,8 @@
     text-decoration: none;
 }
 
-.text_calculate{
-    font-size: 1.3em;
-    text-indent: 20px;
-}
-
 .income{
-    width: 85%;
+    max-width: 85%;
     border-radius: 10px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.329);
     margin: 20px;
@@ -26,7 +21,7 @@ div#calculator{
     
 }
 
-button#Calculator{
+button.Calculator{
     background-color: white;
     padding: 10px;
     border-radius: 20px;
@@ -35,6 +30,7 @@ button#Calculator{
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    
 }
 
 #Result_calculator_full_value{
@@ -89,3 +85,28 @@ button#Calculator{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
 
 }
+
+.text_calculate{
+    font-size: 1.2em;
+    text-indent: 20px;
+}
+
+.lCalculate{
+    text-align: center;
+    width: 200px;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+fieldset{
+    border: 0 none;
+}
+
+h1{
+    font-size: 1.8em;
+}
+
+.container2 p {
+    margin: 5px;
+}
+
