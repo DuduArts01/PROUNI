@@ -110,3 +110,11 @@ h1{
     margin: 5px;
 }
 
+@media (max-width: 858px) {
+    #residents{
+        width: 40%;
+    }
+    #income_calculate{
+        width: 50%;
+    }
+}
