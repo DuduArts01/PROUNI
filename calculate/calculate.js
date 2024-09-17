@@ -19,15 +19,15 @@ function Calculator(){
     }else if(!residents.trim()){
         window.alert("Por favor, Digite a quantidade de Moradores!");
     } else if(number / residents <= 2118){
-        Result_calculator_full_value.style.display = "block";
+        Result_calculator_full_value.style.display = "flex";
         res.innerHTML = `${(number / residents).toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`;
         res2.innerHTML = `${(2118 - number / residents).toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`;
     } else if(number / residents <= 4236){
-        Result_calculator_partial_value.style.display = "block";
+        Result_calculator_partial_value.style.display = "flex";
         res3.innerHTML = `${(number / residents).toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`;
         res4.innerHTML = `${(4236 - number / residents).toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`;
     } else{
-        Result_calculator_negative.style.display = "block";
+        Result_calculator_negative.style.display = "flex";
         res5.innerHTML = `${(number / residents).toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`;
         res6.innerHTML = `${(number / residents - 2118).toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`;
     }

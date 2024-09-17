@@ -34,29 +34,27 @@ button.Calculator{
 }
 
 #Result_calculator_full_value{
-    display: block;
     position: absolute;
     width: 30%;
     height: 30vh;
     top: 30%;
-    right: 0;
     left: 0;
+    right: 0;
+    
 
 }
 
 #Result_calculator_partial_value{
-    display: block;
     position: absolute;
     width: 30%;
     height: 30vh;
     top: 30%;
-    right: 0;
+    margin: auto;
     left: 0;
-
+    right: 0;
 }
 
 #Result_calculator_negative{
-    display: block;
     position: absolute;
     width: 30%;
     height: 30vh;
@@ -114,4 +112,13 @@ h1{
     width: 37%;
 }
 
-
+@media (max-width: 858px) {
+    div#calculator{
+        width: 80%;
+    }
+    
+    #Result_calculator_full_value, #Result_calculator_partial_value, #Result_calculator_negative{
+        width: 80%;
+        height: 40vh;
+    }
+}
