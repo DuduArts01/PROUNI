@@ -1,5 +1,54 @@
 main{
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-top: 10px;
+}
+
+.title_about{
+    margin: 5px 0px 0 0;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.indent{
+    text-indent: 20px;
+    margin: 5px 0;
+    font-size: 1.3em;
+}
+
+.topics{
+    max-width: 90%;
+    margin: auto;
+    text-indent: 15px;
+}
+
+.topic{
+    font-size: 1.3em;
+}
+
+#logo{
+    max-width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20%;
+}
+
+#hammer{
+    max-width: 80%;
+    margin: auto;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+#university{
+    max-width: 90%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+@media (max-width: 858px) {
+    .topic{
+        margin-left: 10px;
+    }
 }
