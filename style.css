@@ -84,7 +84,7 @@ header nav ul li a{
     border-radius: 3px;
 }
 
-header > nav > ul > li > a.active, a:hover{
+header > nav > ul > li > a.active, a.header_a:hover{
     background: #363e49;
     transition: .5s;
 }
