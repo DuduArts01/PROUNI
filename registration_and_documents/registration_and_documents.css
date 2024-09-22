@@ -5,9 +5,15 @@ main{
     margin-bottom: 10px;
 }
 
-.title_registration{
+.title{
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.2em;
+    margin: 10px 0px 0 0;
+}
+
+.title2{
+    text-align: center;
+    font-size: 1.8em;
     margin: 5px 0px 0 0;
 }
 
@@ -15,6 +21,12 @@ main{
     text-indent: 20px;
     margin: 5px 0;
     font-size: 1.3em;
+}
+
+.indent2{
+    text-indent: 20px;
+    margin: 10px 0 0 0;
+    font-size: 1.5em;
 }
 
 .topics{
@@ -27,15 +39,7 @@ main{
     font-size: 1.3em;
 }
 
-#step1, #step2, #step3, #step4{
-    max-width: 80%;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
-
-#way{
+#study, #doubt, #rule_image, #waiting_line_image, #documents_image, #remaining_scholarships_image{
     max-width: 50%;
     margin: auto;
     margin-top: 10px;
@@ -43,30 +47,35 @@ main{
     border-radius: 10px;
 }
 
-#clock{
-    max-width: 30%;
+#tiebreaker_image{
+    max-width: 70%;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
 
-@media (max-width:858px) {
-    #step1, #step2, #step3, #step4{
-        max-width: 100%;
-        margin: auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    
-    .topic{
-        margin-left: 10px;
-    }
+#pages_jump{
+    width: 60%;
+    font-size: 1em;
+}
 
-    #way, #clock{
-        max-width: 100%;
-    }
+.color_pages_jump{
+    color: orangered;
 }
 
 
 
+@media (max-width:858px) {
+    .topic{
+        margin-left: 10px;
+    }
+
+    #doubt, #rule, #waiting_line, #documents, #tiebreaker, #remaining_scholarships{
+        max-width: 100%;
+    }
+    
+    div#pages_jump{
+        width: 90%;
+    }
+}
