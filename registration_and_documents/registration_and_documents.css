@@ -39,6 +39,11 @@ main{
     font-size: 1.3em;
 }
 
+.topic2{
+    font-size: 1.3em;
+    margin: 5px;
+}
+
 #study, #doubt, #rule_image, #waiting_line_image, #documents_image, #remaining_scholarships_image{
     max-width: 50%;
     margin: auto;
@@ -71,7 +76,7 @@ main{
         margin-left: 10px;
     }
 
-    #doubt, #rule, #waiting_line, #documents, #tiebreaker, #remaining_scholarships{
+    #study, #doubt, #rule_image, #waiting_line_image, #documents_image, #tiebreaker_image, #remaining_scholarships_image{
         max-width: 100%;
     }
     
