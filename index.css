@@ -1,5 +1,9 @@
+main{
+    width: 100%;
+}
+
 .img_home_graduation{
-    width: 500px;
+    max-width: 50%;
     border-radius: 10px;
     margin: 0 20px;
 }
@@ -13,7 +17,7 @@ p.text_presentation{
     font-size: 1em;
 }
 
-.interactive_about{
+.interactive{
     display: flex;
     background-color: white;
     padding: 10px;
@@ -23,16 +27,16 @@ p.text_presentation{
     margin-top: 50px;
 }
 
-.interactive_about a{
+.interactive a{
     color: black;
     font-weight: bold;
     
 }
 
-.interactive_about a:hover{
+.interactive a:hover{
     background-color: white;
 }
-.interactive_about:hover{
+.interactive:hover{
     opacity: 0.7;
     cursor: pointer;
 }
@@ -46,6 +50,46 @@ div#presentation{
     width: 100%;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.329);
 }
+
+#banner2{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#banner3{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.329);
+}
+
+div.box_introduction{
+    width: 80%;
+    align-items: center;
+}
+
+#registration_index_image{
+    max-width: 50%;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+#registration2_image{
+    max-width: 60%;
+}
+
+#income{
+    max-width: 40%;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
 
 @media (max-width: 858px) {
     .img_home_graduation{
@@ -68,5 +112,12 @@ div#presentation{
         margin-top: 10px;
         align-items: center;
         justify-content: center;
+    }
+
+    .img_home_graduation, #registration_index_image, #registration2_image, #income{
+        max-width: 100%;
+    }
+    #banner2{
+        width: 100%;
     }
 }
