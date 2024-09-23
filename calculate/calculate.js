@@ -18,7 +18,9 @@ function Calculator(){
         window.alert("Por favor, Digite o valor da Renda!");
     }else if(!residents.trim()){
         window.alert("Por favor, Digite a quantidade de Moradores!");
-    } else if(number / residents <= 2118.00){
+    } else if(residents == 0){
+        window.alert("Não é possível dividir uma renda por zero, ou seja, dividir uma renda para ninguém, por favor, insira a quantidade correta de moradores!");
+    }else if(number / residents <= 2118.00){
         Result_calculator_full_value.style.display = "flex";
         res.innerHTML = `${(number / residents).toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`;
         res2.innerHTML = `${(2118 - number / residents).toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`;
